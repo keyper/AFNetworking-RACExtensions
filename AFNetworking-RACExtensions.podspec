@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/CodaFi/AFNetworking-RACExtensions.git", :tag => "0.1.3" }
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
-  s.source_files = 'ReactiveAFNetworking'
+  s.source_files = 'RACAFNetworking'
   s.requires_arc = true
   s.dependency 'AFNetworking', '~> 2.0'
   s.dependency 'ReactiveCocoa', '~> 2.0'
