@@ -9,6 +9,8 @@
 #import "AFURLConnectionOperation+RACSupport.h"
 #import "AFHTTPRequestOperation.h"
 
+NSString * const RAFNetworkingOperationErrorKey = @"RAFNetworkingOperationError";
+
 @implementation AFURLConnectionOperation (RACSupport)
 
 - (RACSignal *)rac_start {
@@ -34,7 +36,10 @@
 			}
 #endif
 		} failure:^(id operation, NSError *error) {
-			[subject sendError:error];
+            NSMutableDictionary *userInfo = error.userInfo.mutableCopy;
+            userInfo[RAFNetworkingOperationErrorKey] = operation;
+            NSError *errorWithOp = [NSError errorWithDomain:error.domain code:error.code userInfo:userInfo.copy];
+			[subject sendError:errorWithOp];
 #ifdef RAFN_MAINTAIN_COMPLETION_BLOCKS
 			if (oldCompBlock) {
 				oldCompBlock();
