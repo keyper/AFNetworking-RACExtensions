@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ED53287DC0B1F0A080BBA99 /* libPods-Reactive AFNetworking Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF10F6A993B2FCF9EA57BC03 /* libPods-Reactive AFNetworking Example.a */; };
 		846C56E01739CD20008B1704 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846C56DF1739CD20008B1704 /* SenTestingKit.framework */; };
 		846C56E21739CD20008B1704 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846C56E11739CD20008B1704 /* Cocoa.framework */; };
 		846C56EC1739CD20008B1704 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846C56EA1739CD20008B1704 /* InfoPlist.strings */; };
@@ -15,7 +16,6 @@
 		846C57291739D04C008B1704 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EAA1001705028000E98BFE /* ReactiveCocoa.framework */; };
 		847D6A131752D625004E09C2 /* AFHTTPRequestOperationManager+RAFMocking.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D6A111752D625004E09C2 /* AFHTTPRequestOperationManager+RAFMocking.m */; };
 		84AAF21F18C14B940032A6F5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AAF21E18C14B940032A6F5 /* Security.framework */; };
-		84DA993A196CA83F0064A552 /* libRACAFNetworking-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA992A196CA8280064A552 /* libRACAFNetworking-iOS.a */; };
 		84EAA0B81704E1E700E98BFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EAA0B71704E1E700E98BFE /* UIKit.framework */; };
 		84EAA0BA1704E1E700E98BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EAA0B91704E1E700E98BFE /* Foundation.framework */; };
 		84EAA0BC1704E1E700E98BFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EAA0BB1704E1E700E98BFE /* CoreGraphics.framework */; };
@@ -129,41 +129,6 @@
 			remoteGlobalIDString = E9901C3B18205AB100844A05;
 			remoteInfo = "Specta-OSXTests";
 		};
-		84DA9925196CA8280064A552 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84DA991B196CA8280064A552 /* RACAFNetworking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 84DA97D1196C9FEA0064A552;
-			remoteInfo = RACAFNetworking;
-		};
-		84DA9927196CA8280064A552 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84DA991B196CA8280064A552 /* RACAFNetworking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 84DA988C196CA1DF0064A552;
-			remoteInfo = "RACAFNetworking-Mac";
-		};
-		84DA9929196CA8280064A552 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84DA991B196CA8280064A552 /* RACAFNetworking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 84DA98B7196CA22B0064A552;
-			remoteInfo = "RACAFNetworking-iOS";
-		};
-		84DA992B196CA8280064A552 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84DA991B196CA8280064A552 /* RACAFNetworking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 84DA97DC196C9FEA0064A552;
-			remoteInfo = RACAFNetworkingTests;
-		};
-		84DA9938196CA8390064A552 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84DA991B196CA8280064A552 /* RACAFNetworking.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 84DA98B6196CA22B0064A552;
-			remoteInfo = "RACAFNetworking-iOS";
-		};
 		84EAA0FF1705028000E98BFE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84EAA0F71705028000E98BFE /* ReactiveCocoa.xcodeproj */;
@@ -195,6 +160,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6293B359620376B358159820 /* Pods-Reactive AFNetworking Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive AFNetworking Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive AFNetworking Example/Pods-Reactive AFNetworking Example.debug.xcconfig"; sourceTree = "<group>"; };
 		846C56DE1739CD20008B1704 /* RAFNetworking Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAFNetworking Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846C56DF1739CD20008B1704 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		846C56E11739CD20008B1704 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
@@ -229,7 +195,6 @@
 		84C5F65318512C8B0023E25D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		84C5F65418512C8B0023E25D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		84C5F65518512C8B0023E25D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		84DA991B196CA8280064A552 /* RACAFNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RACAFNetworking.xcodeproj; path = ../RACAFNetworking.xcodeproj; sourceTree = "<group>"; };
 		84EAA0B41704E1E700E98BFE /* Reactive AFNetworking Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reactive AFNetworking Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EAA0B71704E1E700E98BFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84EAA0B91704E1E700E98BFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -248,6 +213,9 @@
 		84EAA16717056B3D00E98BFE /* RAFNAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAFNAppDelegate.m; path = "Reactive AFNetworking Example/RAFNAppDelegate.m"; sourceTree = SOURCE_ROOT; };
 		84EAA16817056B3D00E98BFE /* RAFNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAFNMainViewController.h; path = "Reactive AFNetworking Example/RAFNMainViewController.h"; sourceTree = SOURCE_ROOT; };
 		84EAA16917056B3D00E98BFE /* RAFNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAFNMainViewController.m; path = "Reactive AFNetworking Example/RAFNMainViewController.m"; sourceTree = SOURCE_ROOT; };
+		9E63A25E9B54F457C18F07DF /* Pods-Reactive AFNetworking Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive AFNetworking Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive AFNetworking Example/Pods-Reactive AFNetworking Example.release.xcconfig"; sourceTree = "<group>"; };
+		DF10F6A993B2FCF9EA57BC03 /* libPods-Reactive AFNetworking Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reactive AFNetworking Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15A4EB6B1515197D062F1EB /* libPods-RAFNetworking Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAFNetworking Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,13 +234,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DA993A196CA83F0064A552 /* libRACAFNetworking-iOS.a in Frameworks */,
 				84AAF21F18C14B940032A6F5 /* Security.framework in Frameworks */,
 				84EAA11A17052E0900E98BFE /* MobileCoreServices.framework in Frameworks */,
 				84EAA11817052D8C00E98BFE /* SystemConfiguration.framework in Frameworks */,
 				84EAA0B81704E1E700E98BFE /* UIKit.framework in Frameworks */,
 				84EAA0BA1704E1E700E98BFE /* Foundation.framework in Frameworks */,
 				84EAA0BC1704E1E700E98BFE /* CoreGraphics.framework in Frameworks */,
+				1ED53287DC0B1F0A080BBA99 /* libPods-Reactive AFNetworking Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,25 +320,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84DA991C196CA8280064A552 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				84DA9926196CA8280064A552 /* RACAFNetworking.framework */,
-				84DA9928196CA8280064A552 /* libRACAFNetworking-Mac.a */,
-				84DA992A196CA8280064A552 /* libRACAFNetworking-iOS.a */,
-				84DA992C196CA8280064A552 /* RACAFNetworkingTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		84EAA0AB1704E1E700E98BFE = {
 			isa = PBXGroup;
 			children = (
-				84DA991B196CA8280064A552 /* RACAFNetworking.xcodeproj */,
 				846C56E71739CD20008B1704 /* RAFNetworking Tests */,
 				84EAA0BD1704E1E700E98BFE /* Example */,
 				84EAA0B61704E1E700E98BFE /* Frameworks */,
 				84EAA0B51704E1E700E98BFE /* Products */,
+				FB30F988919A2937081CC1FD /* Pods */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 1;
@@ -397,6 +354,8 @@
 				846C56E11739CD20008B1704 /* Cocoa.framework */,
 				84117E1C192C056B00DC1430 /* External */,
 				846C56E31739CD20008B1704 /* Other Frameworks */,
+				F15A4EB6B1515197D062F1EB /* libPods-RAFNetworking Tests.a */,
+				DF10F6A993B2FCF9EA57BC03 /* libPods-Reactive AFNetworking Example.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -469,6 +428,15 @@
 			path = External/AFNetworking;
 			sourceTree = SOURCE_ROOT;
 		};
+		FB30F988919A2937081CC1FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6293B359620376B358159820 /* Pods-Reactive AFNetworking Example.debug.xcconfig */,
+				9E63A25E9B54F457C18F07DF /* Pods-Reactive AFNetworking Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -495,14 +463,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84EAA0D11704E1E700E98BFE /* Build configuration list for PBXNativeTarget "Reactive AFNetworking Example" */;
 			buildPhases = (
+				6BCE320F938F043B602E2613 /* 📦 Check Pods Manifest.lock */,
 				84EAA0B01704E1E700E98BFE /* Sources */,
 				84EAA0B11704E1E700E98BFE /* Frameworks */,
 				84EAA0B21704E1E700E98BFE /* Resources */,
+				968A5221D5510A72FD246746 /* 📦 Embed Pods Frameworks */,
+				F5016B520967452A2B1394D4 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84DA9939196CA8390064A552 /* PBXTargetDependency */,
 				84EAA1061705033600E98BFE /* PBXTargetDependency */,
 			);
 			name = "Reactive AFNetworking Example";
@@ -534,10 +504,6 @@
 				{
 					ProductGroup = 846C56F71739CD39008B1704 /* Products */;
 					ProjectRef = 846C56F61739CD39008B1704 /* Expecta.xcodeproj */;
-				},
-				{
-					ProductGroup = 84DA991C196CA8280064A552 /* Products */;
-					ProjectRef = 84DA991B196CA8280064A552 /* RACAFNetworking.xcodeproj */;
 				},
 				{
 					ProductGroup = 84EAA0F81705028000E98BFE /* Products */;
@@ -648,34 +614,6 @@
 			remoteRef = 84C5F64118512C7F0023E25D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		84DA9926196CA8280064A552 /* RACAFNetworking.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = RACAFNetworking.framework;
-			remoteRef = 84DA9925196CA8280064A552 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		84DA9928196CA8280064A552 /* libRACAFNetworking-Mac.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libRACAFNetworking-Mac.a";
-			remoteRef = 84DA9927196CA8280064A552 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		84DA992A196CA8280064A552 /* libRACAFNetworking-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libRACAFNetworking-iOS.a";
-			remoteRef = 84DA9929196CA8280064A552 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		84DA992C196CA8280064A552 /* RACAFNetworkingTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = RACAFNetworkingTests.xctest;
-			remoteRef = 84DA992B196CA8280064A552 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		84EAA1001705028000E98BFE /* ReactiveCocoa.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -722,6 +660,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6BCE320F938F043B602E2613 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		846C56DC1739CD20008B1704 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -734,6 +687,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		968A5221D5510A72FD246746 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reactive AFNetworking Example/Pods-Reactive AFNetworking Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5016B520967452A2B1394D4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reactive AFNetworking Example/Pods-Reactive AFNetworking Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -764,11 +747,6 @@
 			isa = PBXTargetDependency;
 			name = Expecta;
 			targetProxy = 846C57161739CD46008B1704 /* PBXContainerItemProxy */;
-		};
-		84DA9939196CA8390064A552 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "RACAFNetworking-iOS";
-			targetProxy = 84DA9938196CA8390064A552 /* PBXContainerItemProxy */;
 		};
 		84EAA1061705033600E98BFE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -902,6 +880,7 @@
 		};
 		84EAA0D21704E1E700E98BFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6293B359620376B358159820 /* Pods-Reactive AFNetworking Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -913,9 +892,12 @@
 					"\"$(SRCROOT)/../RACAFNetworking\"/**",
 				);
 				INFOPLIST_FILE = "Reactive AFNetworking Example/Reactive AFNetworking Example-Info.plist";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "-all_load";
+				OTHER_CFLAGS = (
+					"-all_load",
+					"$(inherited)",
+				);
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-ObjC",
 					"-all_load",
 				);
@@ -927,6 +909,7 @@
 		};
 		84EAA0D31704E1E700E98BFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E63A25E9B54F457C18F07DF /* Pods-Reactive AFNetworking Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -938,12 +921,13 @@
 					"\"$(SRCROOT)/../RACAFNetworking\"/**",
 				);
 				INFOPLIST_FILE = "Reactive AFNetworking Example/Reactive AFNetworking Example-Info.plist";
-				LIBRARY_SEARCH_PATHS = "";
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-all_load",
+					"$(inherited)",
 				);
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-ObjC",
 					"-all_load",
 				);
